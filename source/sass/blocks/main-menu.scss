@@ -1,0 +1,51 @@
+.main-menu {
+    display: none;
+    width: 100%;
+    background: #ffffff;
+    
+    @media (min-width: $desktop-width) {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        width: auto;
+    }
+}
+
+.main-menu--closed {
+    display: none;
+}
+
+.main-menu--js {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+}
+
+.main-menu__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+    } 
+}
+
+.main-menu-contacts {
+    display: none;
+    @media (min-width: $desktop-width) {
+        display: flex;
+        align-items: center;
+    } 
+}
+
+.main-menu-contacts__tel {
+    margin-right: 45px;
+}
+
+.main-menu-contacts__btn {
+    padding: 15px 20px;
+    font-size: 11px;
+    font-weight: 700;
+}

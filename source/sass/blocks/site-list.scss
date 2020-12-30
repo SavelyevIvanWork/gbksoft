@@ -1,0 +1,36 @@
+.site-list__link {
+    width: 100%;
+    display: block;
+    padding: 17px 24px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3c424f;
+
+    @media (min-width: $desktop-width) {
+        padding: 28px 16px;
+    }
+}
+
+.site-list-submenu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-list-submenu-js {
+    display: block;
+}
+
+.site-list-submenu__link {
+    width: 100%;
+    display: block;
+    padding: 17px 24px;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3c424f;
+}
